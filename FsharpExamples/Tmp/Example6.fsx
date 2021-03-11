@@ -33,8 +33,8 @@ module ExpiryMonth =
 type CardCode = private CardCode of int
 module CardCode =
     let create v =
-        let len = v |> string |> String.length 
-        if len = 3 || let = 4 then
+        let len = v |> string |> String.length
+        if len = 3 || len = 4 then
             v |> CardCode |> Ok
         else
             Error "Could not parse Card code"
