@@ -1,6 +1,6 @@
 namespace CsharpApplication
 {
-    public class PymentData3
+    public class PaymentData3
     {
         public decimal Amount { get; set; }
         public Method3 Method { get; set; }
