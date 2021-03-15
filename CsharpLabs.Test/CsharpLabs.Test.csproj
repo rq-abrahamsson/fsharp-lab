@@ -15,7 +15,7 @@
     </ItemGroup>
 
     <ItemGroup>
-      <ProjectReference Include="..\CsharpExamples\CsharpExamples.csproj" />
+      <ProjectReference Include="..\CsharpLabs\CsharpLabs.csproj" />
     </ItemGroup>
 
 </Project>

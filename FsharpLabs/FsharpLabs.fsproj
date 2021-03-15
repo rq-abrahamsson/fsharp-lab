@@ -12,6 +12,7 @@
         <Compile Include="Tmp/Example6.fsx" />
         <Compile Include="Tmp/ExampleCardDeck.fsx" />
         <Compile Include="Program.fs" />
+        <None Include="Part3.fsx" />
     </ItemGroup>
 
 </Project>

@@ -1,26 +1,23 @@
-using System.Collections;
 using System.Collections.Generic;
-using System.Linq;
 
 namespace CsharpExamples
 {
-    public class Part1_2
+    public class Part2_1
     {
-        public static IEnumerable<int> CreateList()
+        public static List<int> CreateList()
         {
             return new List<int> {1,2,3,4,5,6,7,8,9,10};
         }
 
-        public static List<int> MultiplyList(IEnumerable<int> l)
+        public static List<int> MultiplyList(List<int> l)
         {
-            var l2 = new List<int>();
-            foreach (var item in l)
+            for (var i = 0; i < l.Count; i++)
             {
-                l2.Add(item * item);
+                l[i] = l[i] * l[i];
             }
-            return l2;
+            return l;
         }
-        public static List<int> GetEvenNumbers(IEnumerable<int> l)
+        public static List<int> GetEvenNumbers(List<int> l)
         {
             var l2 = new List<int>();
             foreach (var item in l)

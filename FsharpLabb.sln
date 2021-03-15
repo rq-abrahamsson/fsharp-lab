@@ -1,10 +1,10 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "FsharpExamples", "FsharpExamples\FsharpExamples.fsproj", "{82CA2218-4633-4DC4-9F1B-A039A352699A}"
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "FsharpLabs", "FsharpLabs\FsharpLabs.fsproj", "{82CA2218-4633-4DC4-9F1B-A039A352699A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CsharpExamples", "CsharpExamples\CsharpExamples.csproj", "{E5CD3498-7B33-4CD4-9CC6-DAC740D1B939}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CsharpLabs", "CsharpLabs\CsharpLabs.csproj", "{E5CD3498-7B33-4CD4-9CC6-DAC740D1B939}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CsharpExamples.Test", "CsharpExamples.Test\CsharpExamples.Test.csproj", "{213F1E0E-665A-4BD6-BF1D-505C21838519}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CsharpLabs.Test", "CsharpLabs.Test\CsharpLabs.Test.csproj", "{213F1E0E-665A-4BD6-BF1D-505C21838519}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
