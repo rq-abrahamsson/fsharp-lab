@@ -17,6 +17,7 @@ Finns det något lib eller mönster som skulle ge ett värde i de pågående pro
 ### Del 1
 Läs igenom [den här sidan](https://fsharpforfunandprofit.com/posts/fsharp-in-60-seconds/) om lite grundläggande F# syntax och testa att köra kommandon i REPL:n.
 Klistra in en rad, avsluta med `;;` och sen enter.
+För att skriva F# i terminalen kör kommandot `dotnet fsi` för att börja, för att avsluta, kör `#quit;;`
 
 ### Del 2
 Kolla igenom slidsen från presentationen och testa att köra några av de exemplen vi gick igenom.
