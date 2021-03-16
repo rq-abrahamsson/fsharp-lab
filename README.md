@@ -33,10 +33,28 @@ Kolla gärna in [lösningsförslaget](https://github.com/rq-abrahamsson/aoc/blob
 
 BONUS: Sätt upp ett test som bekräftar att uppgiften är löst. Eller ännu bättre, sätt upp testet innan och lös det med TDD.
 
-### Välj en av följande
-#### Modellering
-Modellera data, jämför F# med C#/JavaScript
-Använd ett lib från JavaScript eller Language extensions i C# https://github.com/louthy/language-ext
+### Större uppgifter
+De här uppgifterna kan göras snabbt och enkelt men de går också att ta ganska långt.
+Så ni väljer själva om ni bara vill fokusera på en eller om ni vill göra lite av varje.
+
+#### Modellering - Tic-Tac-Toe
+Här ska vi modellera det enkla spelet [Tic-Tac-Toe](https://en.wikipedia.org/wiki/Tic-tac-toe). Det finns en start i filen [TicTacToe.fsx](/FsharpLabs/Part3-a):
+```
+type InitGame = unit -> Game
+type PlayerXMoves = GameState * SomeOtherStuff -> GameState
+```
+Följ följande riktlinjer och kör en type first design:
+* We start with types only – no implementation code.
+* Every use-case or scenario corresponds to a function type, with one input and one output (which means I’ll use tuples when multiple parameters are needed).
+* We work mostly top-down and outside-in, but occasionally bottom up as well.
+* We ignore the UI for now. And there will be no events or observables in the design of the core domain. It will be purely functional.
+
+När modellerandet är klart är det dags att implementera och se om modellen håller, tänk på att man vill kunna se spelet också.
+
+När det är klart är det dags att fundera över det ni har gjort. Utgå gärna från när [Scott Wlaschin](https://fsharpforfunandprofit.com/posts/enterprise-tic-tac-toe/) gör samma sak.
+Det är en väldigt lång artikel och hade lite andra utgångsvärden, men kan vara värdefullt att läsa en del och jämföra med er process och implementation.
+
+Om ni har tid över kan ni försöka göra samma övning med JavaScript eller C# och kanske använda något funktionellt bibliotek som [Immutable.js](https://immutable-js.github.io/immutable-js/docs/#/), [Lodash](https://lodash.com/docs) eller [Language extensions](https://github.com/louthy/language-ext)
 
 #### Railway Oriented Programming
 Railway Oriented Programming.
