@@ -33,11 +33,11 @@ Kolla gärna in [lösningsförslaget](https://github.com/rq-abrahamsson/aoc/blob
 
 BONUS: Sätt upp ett test som bekräftar att uppgiften är löst. Eller ännu bättre, sätt upp testet innan och lös det med TDD.
 
-### Större uppgifter
+### Del 4 - Större uppgifter
 De här uppgifterna kan göras snabbt och enkelt men de går också att ta ganska långt.
 Så ni väljer själva om ni bara vill fokusera på en eller om ni vill göra lite av varje.
 
-#### Modellering - Tic-Tac-Toe
+#### 4a. Modellering - Tic-Tac-Toe
 Här ska vi modellera det enkla spelet [Tic-Tac-Toe](https://en.wikipedia.org/wiki/Tic-tac-toe). Det finns en start i filen [TicTacToe.fsx](/FsharpLabs/Part3-a):
 ```
 type InitGame = unit -> Game
@@ -56,10 +56,11 @@ Det är en väldigt lång artikel och hade lite andra utgångsvärden, men kan v
 
 Om ni har tid över kan ni försöka göra samma övning med JavaScript eller C# och kanske använda något funktionellt bibliotek som [Immutable.js](https://immutable-js.github.io/immutable-js/docs/#/), [Lodash](https://lodash.com/docs), [Language extensions](https://github.com/louthy/language-ext) eller något av de andra som visades upp under dragningen.
 
-#### Railway Oriented Programming
-Railway Oriented Programming.
+#### 4b. Railway Oriented Programming
+I den här labben använder vi oss inte av script-filer utan vi kör projektet vilket görs med: `dotnet run -p FsharpLabs/FsharpLabs.fsproj`.
+Så i filen Program kan man se att vi kör en funktion i filen [Rop.fs](/FsharpLabs/Part4-b/Rop.fs).
 
-#### State machines - Checkout
+#### 4c. State machines - Checkout
 
 Implementera en state machine för ett köpflöde, ett bra sätt att börja på är att rita upp ett schema över vilka states som kan gå var och sen implementera typer och state transitions för det.
 Utgå ifrån följande state-tabell och koden som finns i [Part4-c/Checkout.fsx](/FsharpLabs/Part4-c/Checkout.fsx).

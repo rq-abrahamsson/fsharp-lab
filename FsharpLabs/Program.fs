@@ -1,8 +1,8 @@
 ﻿// Learn more about F# at http://fsharp.org
 
-open System
+open FsharpLabs.Part4b
 
 [<EntryPoint>]
 let main argv =
-    printfn "Hello World from F#!"
+    Rop.tmp()
     0 // return an integer exit code

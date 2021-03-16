@@ -13,5 +13,3 @@ type Deck = Card list
 
 let deck = [(Club, Two)]
 
-printfn "%A" deck
-

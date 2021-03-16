@@ -3,7 +3,7 @@
     <PropertyGroup>
         <OutputType>Exe</OutputType>
         <TargetFramework>net5.0</TargetFramework>
-        <RootNamespace>CsharpExamples</RootNamespace>
+        <RootNamespace>FsharpLabs</RootNamespace>
     </PropertyGroup>
 
     <ItemGroup>
@@ -13,8 +13,13 @@
         <Compile Include="Tmp/ExampleCardDeck.fsx" />
         <None Include="Part3.fsx" />
         <None Include="Part4-a\TicTacToe.fsx" />
+        <Compile Include="Part4-b\Rop.fs" />
         <None Include="Part4-c\Checkout.fsx" />
         <Compile Include="Program.fs" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <PackageReference Include="FSharpPlus" Version="1.1.7" />
     </ItemGroup>
 
 </Project>
