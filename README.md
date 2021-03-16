@@ -23,13 +23,13 @@ Kolla igenom slidsen från presentationen och testa att köra några av de exemp
 Fixa det failande testet i projektet.
 
 ### Del 3
-Med följande [regler](https://fsharpforfunandprofit.com/learning-fsharp/#dos-and-donts) lös försök följande uppgift (endast första uppgiften) från Advent Of Code:
+Med dessa [regler](https://fsharpforfunandprofit.com/learning-fsharp/#dos-and-donts) lös följande uppgift (endast första uppgiften) från Advent Of Code:
 [AOC 2020-1](https://adventofcode.com/2020/day/1).
 
-Finns uppsatt en grund för att börja det här i filen [Past3.fsx](/FsharpLabs/Part3.fsx).
+Finns uppsatt en grund för att börja med det här i filen [Past3.fsx](/FsharpLabs/Part3.fsx).
 Filändelsen `.fsx` säger att det är en F#-scriptfil vilket innebär att man kan köra filen med följand kommando: `dotnet fsi FsharpLabs/Part3.fsx`.
 
-Kolla gärna in [lösningsförslaget](https://github.com/rq-abrahamsson/aoc/blob/master/2020-1/App.fsx) när du är klar och fundera på om vad som hade kunnat förbättras och varför (både din kod och lösningsförslaget).
+Kolla gärna in [lösningsförslaget](https://github.com/rq-abrahamsson/aoc/blob/master/2020-1/App.fsx) när du är klar och fundera på vad som hade kunnat förbättras och varför (både din kod och lösningsförslaget).
 
 BONUS: Sätt upp ett test som bekräftar att uppgiften är löst. Eller ännu bättre, sätt upp testet innan och lös det med TDD.
 
@@ -47,7 +47,7 @@ Här ska vi modellera det enkla spelet [Tic-Tac-Toe](https://en.wikipedia.org/wi
 type InitGame = unit -> Game
 type PlayerXMoves = GameState * SomeOtherStuff -> GameState
 ```
-Följ följande riktlinjer och kör en type first design:
+Följ dessa riktlinjer och kör en type first design:
 * We start with types only – no implementation code.
 * Every use-case or scenario corresponds to a function type, with one input and one output (which means I’ll use tuples when multiple parameters are needed).
 * We work mostly top-down and outside-in, but occasionally bottom up as well.
