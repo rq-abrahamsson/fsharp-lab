@@ -70,7 +70,8 @@ Så i filen [Program.fs](/FsharpLabs/Program.fs) kan man se att vi kör en funkt
 1. Skriv tester och implementera resten av funktionerna.
    Hur blir koden? Blir det enkelt att följa vad som händer? Är det svårt att implementera?
 1. Lägg till en lista av telefonummer till personen. Använd [NonEmptyList](http://fsprojects.github.io/FSharpPlus/reference/fsharpplus-data-nonemptylist.html) från FSharpPlus.
-1. Försök att använda ett error som inte är av typen `string`
+1. Försök att använda en mer komplex-feltyp som inte bara är av typen `string`.
+1. Om ni har tid över kan ni försöka göra samma övning med JavaScript eller C# och kanske använda något funktionellt bibliotek som [Immutable.js](https://immutable-js.github.io/immutable-js/docs/#/), [Lodash](https://lodash.com/docs), [Language extensions](https://github.com/louthy/language-ext) eller något av de andra som visades upp under dragningen.
 
 För hjälp finns Scott Wlashin med [ROP](https://fsharpforfunandprofit.com/posts/recipe-part2/) och
 [Fizz Buzz](https://fsharpforfunandprofit.com/posts/railway-oriented-programming-carbonated/).
