@@ -23,7 +23,7 @@ Kolla igenom slidsen från presentationen och testa att köra några av de exemp
 Fixa det failande testet i projektet.
 
 ### Del 3
-Med följandne [regler](https://fsharpforfunandprofit.com/learning-fsharp/#dos-and-donts) lös försök följande uppgift (endast första uppgiften) från Advent Of Code:
+Med följande [regler](https://fsharpforfunandprofit.com/learning-fsharp/#dos-and-donts) lös försök följande uppgift (endast första uppgiften) från Advent Of Code:
 [AOC 2020-1](https://adventofcode.com/2020/day/1).
 
 Finns uppsatt en grund för att börja det här i filen [Past3.fsx](/FsharpLabs/Part3.fsx).
