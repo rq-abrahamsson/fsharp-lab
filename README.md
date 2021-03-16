@@ -54,10 +54,19 @@ När modellerandet är klart är det dags att implementera och se om modellen h�
 När det är klart är det dags att fundera över det ni har gjort. Utgå gärna från när [Scott Wlaschin](https://fsharpforfunandprofit.com/posts/enterprise-tic-tac-toe/) gör samma sak.
 Det är en väldigt lång artikel och hade lite andra utgångsvärden, men kan vara värdefullt att läsa en del och jämföra med er process och implementation.
 
-Om ni har tid över kan ni försöka göra samma övning med JavaScript eller C# och kanske använda något funktionellt bibliotek som [Immutable.js](https://immutable-js.github.io/immutable-js/docs/#/), [Lodash](https://lodash.com/docs) eller [Language extensions](https://github.com/louthy/language-ext)
+Om ni har tid över kan ni försöka göra samma övning med JavaScript eller C# och kanske använda något funktionellt bibliotek som [Immutable.js](https://immutable-js.github.io/immutable-js/docs/#/), [Lodash](https://lodash.com/docs), [Language extensions](https://github.com/louthy/language-ext) eller något av de andra som visades upp under dragningen.
 
 #### Railway Oriented Programming
 Railway Oriented Programming.
 
-#### State machines
-Kanske en state machine, visa hur enkelt det är i F#?
+#### State machines - Checkout
+
+Implementera en state machine för ett köpflöde, ett bra sätt att börja på är att rita upp ett schema över vilka states som kan gå var och sen implementera typer och state transitions för det.
+Utgå ifrån följande state-tabell och koden som finns i [Part4-c/Checkout.fsx](/FsharpLabs/Part4-c/Checkout.fsx).
+![State table](./state-table.png)
+
+När det är gjort är kan det vara bra att fundera på vad som skulle kunna göras bättre och jämföra lösningen med [Scott Wlashin](https://fsharpforfunandprofit.com/posts/designing-with-types-representing-states/).
+
+Nu är det dags att gå tillbaka till C# och JavaScript för att kunna jämföra den här lösningen med något i de språken.
+Så gör helt enkelt samma övning med JavaScript eller C# och om ni känner att det skulle hjälpa, testa att använda ett funktionellt bibliotek som [Immutable.js](https://immutable-js.github.io/immutable-js/docs/#/), [Lodash](https://lodash.com/docs), [Language extensions](https://github.com/louthy/language-ext) eller något av de andra som visades upp under dragningen.
+
