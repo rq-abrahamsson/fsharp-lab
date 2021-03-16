@@ -6,6 +6,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CsharpLabs", "CsharpLabs\Cs
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CsharpLabs.Test", "CsharpLabs.Test\CsharpLabs.Test.csproj", "{213F1E0E-665A-4BD6-BF1D-505C21838519}"
 EndProject
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "FsharpLabs.Test", "FsharpLabs.Test\FsharpLabs.Test.fsproj", "{261064B8-D219-48AD-81A9-F9ADCADF3A4C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -24,5 +26,9 @@ Global
 		{213F1E0E-665A-4BD6-BF1D-505C21838519}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{213F1E0E-665A-4BD6-BF1D-505C21838519}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{213F1E0E-665A-4BD6-BF1D-505C21838519}.Release|Any CPU.Build.0 = Release|Any CPU
+		{261064B8-D219-48AD-81A9-F9ADCADF3A4C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{261064B8-D219-48AD-81A9-F9ADCADF3A4C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{261064B8-D219-48AD-81A9-F9ADCADF3A4C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{261064B8-D219-48AD-81A9-F9ADCADF3A4C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

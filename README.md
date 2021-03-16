@@ -36,8 +36,12 @@ BONUS: Sätt upp ett test som bekräftar att uppgiften är löst. Eller ännu b�
 ### Del 4 - Större uppgifter
 De här uppgifterna kan göras snabbt och enkelt men de går också att ta ganska långt.
 Så ni väljer själva om ni bara vill fokusera på en eller om ni vill göra lite av varje.
+Bra hjälp finns från [FSharpPlus](http://fsprojects.github.io/FSharpPlus/), [FSharpCore](https://fsharp.github.io/fsharp-core-docs/), [Fsharpforfunandprofit](https://fsharpforfunandprofit.com/).
+Uppgifterna är medvetet ganska öppna och stora för att ge utrymme till att utforska det som verkar intressant, så tänken är inte att bli "klar" med någon uppgift. 
+Men kör ni fast eller har funderingar, tveka inte att ta hjälp för att diskutera saker.
 
 #### 4a. Modellering - Tic-Tac-Toe
+
 Här ska vi modellera det enkla spelet [Tic-Tac-Toe](https://en.wikipedia.org/wiki/Tic-tac-toe). Det finns en start i filen [TicTacToe.fsx](/FsharpLabs/Part3-a):
 ```
 type InitGame = unit -> Game
@@ -57,8 +61,19 @@ Det är en väldigt lång artikel och hade lite andra utgångsvärden, men kan v
 Om ni har tid över kan ni försöka göra samma övning med JavaScript eller C# och kanske använda något funktionellt bibliotek som [Immutable.js](https://immutable-js.github.io/immutable-js/docs/#/), [Lodash](https://lodash.com/docs), [Language extensions](https://github.com/louthy/language-ext) eller något av de andra som visades upp under dragningen.
 
 #### 4b. Railway Oriented Programming
+
 I den här labben använder vi oss inte av script-filer utan vi kör projektet vilket görs med: `dotnet run -p FsharpLabs/FsharpLabs.fsproj`.
-Så i filen Program kan man se att vi kör en funktion i filen [Rop.fs](/FsharpLabs/Part4-b/Rop.fs).
+Så i filen [Program.fs](/FsharpLabs/Program.fs) kan man se att vi kör en funktion i filen [Rop.fs](/FsharpLabs/Part4-b/Rop.fs).
+1. Implementera färdigt funktionerna som används i `addPerson` workflowet.
+1. Lägg till ett test för `addPerson` i [Testfilen](/FsharpLabs.Test/Part4-b/Part4b.fs).
+   Behöver man göra några ändringar för att det ska vara enkelt att testa funktionen?
+1. Skriv tester och implementera resten av funktionerna.
+   Hur blir koden? Blir det enkelt att följa vad som händer? Är det svårt att implementera?
+1. Lägg till en lista av telefonummer till personen. Använd [NonEmptyList](http://fsprojects.github.io/FSharpPlus/reference/fsharpplus-data-nonemptylist.html) från FSharpPlus.
+1. Försök att använda ett error som inte är av typen `string`
+
+För hjälp finns Scott Wlashin med [ROP](https://fsharpforfunandprofit.com/posts/recipe-part2/) och
+[Fizz Buzz](https://fsharpforfunandprofit.com/posts/railway-oriented-programming-carbonated/).
 
 #### 4c. State machines - Checkout
 
