@@ -13,6 +13,8 @@
         <Compile Include="Tmp/ExampleCardDeck.fsx" />
         <None Include="Part3.fsx" />
         <None Include="Part4-a\TicTacToe.fsx" />
+        <Compile Include="Part4-b\Domain.fs" />
+        <Compile Include="Part4-b\Dto.fs" />
         <Compile Include="Part4-b\Rop.fs" />
         <None Include="Part4-c\Checkout.fsx" />
         <Compile Include="Program.fs" />
