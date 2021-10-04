@@ -32,7 +32,7 @@ Fixa det failande testet i projektet.
 Med dessa [regler](https://fsharpforfunandprofit.com/learning-fsharp/#dos-and-donts) lös följande problem på Project Euler:
 [Multiples of 3 or 5](https://projecteuler.net/problem=1).
 
-Finns uppsatt en grund för att börja med det här i filen [Past3.fsx](/FsharpLabs/Part3.fsx).
+Finns uppsatt en grund för att börja med det här i filen [Part3.fsx](/FsharpLabs/Part3.fsx).
 Filändelsen `.fsx` säger att det är en F#-scriptfil vilket innebär att man kan köra filen med följand kommando: `dotnet fsi FsharpLabs/Part3.fsx`.
 
 Går det bra, testa gärna något till problem.
