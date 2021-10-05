@@ -18,7 +18,7 @@ Läs igenom [den här sidan](https://fsharpforfunandprofit.com/posts/fsharp-in-6
 Klistra in en rad, avsluta med `;;` och sen enter.
 För att skriva F# i terminalen kör kommandot `dotnet fsi` för att börja, för att avsluta, kör `#quit;;`
 #### b
-Med hjälp av sidan ovan, skriv en funktion som tar in en lista. Den ska som output ge kvadraten av summan av alla jämna tiotal.
+Med hjälp av sidan ovan, skriv en funktion som tar in en lista. Den ska som output ge summan av kvadraten av alla jämna tiotal.
 Ex: Listan `[0..20]` ska då ge output `10*10+20*20->500`
 #### c
 En till funktion som tar in en lista. Som output ska den ge summan av alla tal som är jämnt delbara med 4.
