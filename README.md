@@ -21,8 +21,10 @@ För att skriva F# i terminalen kör kommandot `dotnet fsi` för att börja, fö
 Med hjälp av sidan ovan, skriv en funktion som tar in en lista. Den ska som output ge summan av kvadraten av alla jämna tiotal.
 Ex: Listan `[0..20]` ska då ge output `10*10+20*20->500`
 #### c
-En till funktion som tar in en lista. Som output ska den ge summan av alla tal som är jämnt delbara med 4.
-Ex: Listan `[0..20]` ska ge `8+16->24`
+En till funktion som tar in en lista.
+Den ska först skapa en ny lista med kvadraten av alla tal.
+Från den listan ska den sen ta summan av alla tal som är jämnt delbara med 4.
+Ex: Listan `[0..20]` ska ge `0+4+16+36+64+100+144+196+256+324+400->1540`
 
 ### Del 2
 Kolla igenom slidsen från presentationen och testa att köra några av de exemplen vi gick igenom.
